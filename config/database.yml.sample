@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  user: <%user%>
+  password: <%password%>
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: materialize_dev
+
+test:
+  <<: *default
+  database: materialize_dev

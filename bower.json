@@ -1,0 +1,21 @@
+{
+  "name": "materialize",
+  "authors": [
+    "Juan Carlos Condori Machicado <jcondori@agetic.gob.bo>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8"
+  }
+}
